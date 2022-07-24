@@ -5,27 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="external/estructura.css">
     <link rel="stylesheet" href="external/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&family=Edu+TAS+Beginner&family=Finger+Paint&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
-        <img src="external/cosmic-timetraveler--SFhuMwFClk-unsplash.jpg">
+        <div class="izquierda">
+            <div class="banda"></div>
+        </div>
         <div class="derecha">
             <div class="texto">This is not a real website. You need something like this to know
                 what your dreams are. What your deepest desires are. We will help you.
                 Register now.
                 <br>
+                <br><br>
                 You know what to do.
             </div>
             <br><br><br>
             <form>
-                <div class="relleno">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                    Velit reiciendis dolorum nesciunt minima porro! Animi eum 
-                    excepturi explicabo aliquam illum deserunt, 
-                    consequatur officiis rem assumenda repellat vero minus expedita vitae.
+                <div class="blanco">
+                    <p>Let's do this!</p>
+                        <div class="relleno">
+                        <div class="gridElement">
+                            <label for="Nombre">Nombre</label>
+                            <input type="text" name="Nombre" id="Nombre">
+                        </div>
+                        <div class="gridElement">
+                            <label for="Apellido">Apellido</label>
+                            <input type="text" name="Apellido" id="Apellido">
+                        </div>
+                        <div class="gridElement">
+                            <label for="Email">Email</label>
+                            <input type="email" name="Email" id="Email">
+                        </div>
+                        <div class="gridElement">
+                            <label for="Telefono">Telefono</label>
+                            <input type="number" name="Telefono" id="Telefono">
+                        </div>
+                        <div class="gridElement">
+                            <label for="Contra">Contraseña</label>
+                            <input type="text" name="Contra" id="Contra">
+                        </div>
+                        <div class="gridElement">
+                            <label for="Contra2">Confirme contraseña</label>
+                            <input type="text" name="Contra2" id="Contra2">
+                        </div>
+                    </div>
                 </div>
+                <input type="submit" value="Crear cuenta">
             </form>
+            <p>¿Ya tenes una cuenta? <a href="#">Log in</a></p>
         </div>
     </div>
     <script src="external/script.js" defer></script>
