@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+}
+img{
+    height: 100vh;
+    width: 45vw;
+}
+.derecha{
+    background-color: rgb(207, 204, 204);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.texto{
+    margin: -350px 40px 20px 50px;
+    font-size: 25px;
+}
+.relleno{
+    background-color: white;
+}
+
