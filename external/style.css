@@ -6,9 +6,26 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .input{
-    border-color: #E5E7EB;
+    border: 2px solid #E5E7EB;
     border-radius: 15px;
 }
 label{
     font-size: 1.15em;
+}
+input{
+    border-radius: 5px;
+    padding: 3px 7px;
+}
+input:invalid{
+    border: 2px solid red;
+}
+input[type="submit"]{
+    background-color: rgb(70, 105, 156);
+    color: white;
+    border: none;
+    box-shadow: 2px 2px 8px black;
+}
+a{
+    text-decoration: none;
+    color: rgb(70, 105, 156);
 }
