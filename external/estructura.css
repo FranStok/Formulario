@@ -1,14 +1,9 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Edu TAS Beginner', cursive;
 }
 .container{
     display: flex;
-}
-img{
-    height: 100vh;
-    width: 40vw;
 }
 .derecha{
     padding-top: 100px;
@@ -18,7 +13,7 @@ img{
     justify-content: flex-start;
 }
 .texto{
-    font-size: 30px;
+    font-size: 25px;
     width: 65%;
     padding-left: 50px;
 }
@@ -30,9 +25,11 @@ img{
 }
 .relleno{
     display: grid;
+    width: 50%;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto;
-    gap: 15px;
+    row-gap: 15px;
+    column-gap: 40px;
 }
 .blanco>p{
     font-size: 30px;
@@ -40,14 +37,12 @@ img{
     margin-bottom: 15px;
 }
 .gridElement{
-    width: 50%;
     display: flex;
     flex-direction: column;
 }
 input{
     width: 250px;
     height: 25px;
-    border-color: grey;
 }
 input[type="submit"]{
     width: 250px;
@@ -63,7 +58,7 @@ input[type="submit"]{
     display: flex;
     align-items: center;
     height: 100vh;
-    width: 40vw;
+    width: 50vw;
     background-image: url("cosmic-timetraveler--SFhuMwFClk-unsplash.jpg");
     background-size:100% 100%;
 }
@@ -73,5 +68,12 @@ input[type="submit"]{
     background-color: black;
     opacity: 0.5;
     margin-bottom: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: white;
+    font-size: 45px;
 }
 

@@ -1,0 +1,14 @@
+*{
+    font-family: 'Ibarra Real Nova', serif;
+    color:rgb(71, 63, 63)
+}
+.blanco{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.input{
+    border-color: #E5E7EB;
+    border-radius: 15px;
+}
+label{
+    font-size: 1.15em;
+}

@@ -9,16 +9,20 @@
     <link rel="stylesheet" href="external/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&family=Edu+TAS+Beginner&family=Finger+Paint&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <div class="izquierda">
-            <div class="banda"></div>
+            <div class="banda">
+                <img src="external/odin-lined.png" alt="logo" height="170px">
+                <h1>ODIN</h1>
+            </div>
         </div>
         <div class="derecha">
             <div class="texto">This is not a real website. You need something like this to know
-                what your dreams are. What your deepest desires are. We will help you.
+                what your dreams are. What your deepest desires are. Free of charge until the seventh week!
+                We will help you.
                 Register now.
                 <br>
                 <br><br>
@@ -29,30 +33,30 @@
                 <div class="blanco">
                     <p>Let's do this!</p>
                         <div class="relleno">
-                        <div class="gridElement">
-                            <label for="Nombre">Nombre</label>
-                            <input type="text" name="Nombre" id="Nombre">
-                        </div>
-                        <div class="gridElement">
-                            <label for="Apellido">Apellido</label>
-                            <input type="text" name="Apellido" id="Apellido">
-                        </div>
-                        <div class="gridElement">
-                            <label for="Email">Email</label>
-                            <input type="email" name="Email" id="Email">
-                        </div>
-                        <div class="gridElement">
-                            <label for="Telefono">Telefono</label>
-                            <input type="number" name="Telefono" id="Telefono">
-                        </div>
-                        <div class="gridElement">
-                            <label for="Contra">Contraseña</label>
-                            <input type="text" name="Contra" id="Contra">
-                        </div>
-                        <div class="gridElement">
-                            <label for="Contra2">Confirme contraseña</label>
-                            <input type="text" name="Contra2" id="Contra2">
-                        </div>
+                            <div class="gridElement">
+                                <label for="Nombre">Nombre</label>
+                                <input type="text" name="Nombre" id="Nombre" required>
+                            </div>
+                            <div class="gridElement">
+                                <label for="Apellido">Apellido</label>
+                                <input type="text" name="Apellido" id="Apellido" required>
+                            </div>
+                            <div class="gridElement">
+                                <label for="Email">Email</label>
+                                <input type="email" name="Email" id="Email" required>
+                            </div>
+                            <div class="gridElement">
+                                <label for="Telefono">Telefono</label>
+                                <input type="text" name="Telefono" id="Telefono" pattern="(\d{10})" title="Incorrect format" required>
+                            </div>
+                            <div class="gridElement">
+                                <label for="Contra">Contraseña</label>
+                                <input type="password" name="Contra" id="Contra" required>
+                            </div>
+                            <div class="gridElement">
+                                <label for="Contra2">Confirme contraseña</label>
+                                <input type="password" name="Contra2" id="Contra2" required>
+                            </div>
                     </div>
                 </div>
                 <input type="submit" value="Crear cuenta">
